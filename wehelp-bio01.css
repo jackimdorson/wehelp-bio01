@@ -1,0 +1,43 @@
+body{
+    padding: 10px 5px 0 5px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.title{
+    text-align: center;
+}
+
+.items{
+    width: 100%;
+    margin: 20px 0px;
+    padding: 5px 20px 10px;
+    border: 2px solid;
+    box-shadow: 12px 12px grey;
+    box-sizing: border-box;
+    line-height: 1.7;
+}
+h2{
+    padding: 10px 0px;
+}
+
+@media screen and (min-width: 500px){
+.content{
+    justify-content: center;
+}
+.items{
+    width:42%;
+    box-sizing: border-box;
+    margin: 15px;
+}
+}
+
+@media screen and (min-width: 1250px){
+.items{
+    width:30%;
+}
+}
+.items:hover{
+    background-color: rgb(255, 255, 231);
+}
